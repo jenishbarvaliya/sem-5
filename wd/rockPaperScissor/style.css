@@ -77,21 +77,25 @@ img{
 }
 
 .userChoice{
+    margin: auto;
     padding: .3rem;
+    width: fit-content;
     justify-content: center;
     align-items: center;
-    
+    text-align: center;
     font-size: 2rem;
     margin-bottom: 10px;
     border-radius: 5rem;
     background-color: #405D72;
     color: #FFF8F3;
-    display: i;
+    
 }
 
 .computerChoice{
+    margin: auto;
     justify-content: center;
-    
+    width: fit-content;
+    text-align: center;
     font-size: 2rem;
     padding: .3rem;
     border-radius: 5rem;
