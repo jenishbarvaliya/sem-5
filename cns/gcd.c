@@ -16,6 +16,7 @@ int main() {
     
     while (b != 0) {
         temp = b;
+        printf("\na = %lld & b = %lld",a,b);
         b = a % b;
         a = temp;
     }
